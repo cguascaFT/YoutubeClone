@@ -13,6 +13,28 @@
 		80B9D7D4285E8339008CE282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7D2285E8339008CE282 /* Main.storyboard */; };
 		80B9D7D6285E8342008CE282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7D5285E8342008CE282 /* Assets.xcassets */; };
 		80B9D7D9285E8342008CE282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7D7285E8342008CE282 /* LaunchScreen.storyboard */; };
+		80B9D7E2285E92B1008CE282 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7E1285E92B1008CE282 /* PlayListModel.swift */; };
+		80B9D7E4285E9B2B008CE282 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7E3285E9B2B008CE282 /* VideoModel.swift */; };
+		80B9D7E7285E9B77008CE282 /* PlaylistItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7E5285E9B77008CE282 /* PlaylistItemsModel.swift */; };
+		80B9D7EA285E9BCF008CE282 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7E9285E9BCF008CE282 /* ChannelModel.swift */; };
+		80B9D7ED285E9DB3008CE282 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7EC285E9DB3008CE282 /* RootPageViewController.swift */; };
+		80B9D7EF285E9DC7008CE282 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7EE285E9DC7008CE282 /* MainViewController.swift */; };
+		80B9D7F7285E9EDF008CE282 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7F5285E9EDF008CE282 /* HomeViewController.swift */; };
+		80B9D7F8285E9EDF008CE282 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7F6285E9EDF008CE282 /* HomeViewController.xib */; };
+		80B9D7FB285E9EF9008CE282 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7F9285E9EF9008CE282 /* VideosViewController.swift */; };
+		80B9D7FC285E9EF9008CE282 /* VideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7FA285E9EF9008CE282 /* VideosViewController.xib */; };
+		80B9D7FF285E9F09008CE282 /* PlayListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D7FD285E9F09008CE282 /* PlayListsViewController.swift */; };
+		80B9D800285E9F09008CE282 /* PlayListsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D7FE285E9F09008CE282 /* PlayListsViewController.xib */; };
+		80B9D803285E9F19008CE282 /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D801285E9F19008CE282 /* ChannelsViewController.swift */; };
+		80B9D804285E9F19008CE282 /* ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D802285E9F19008CE282 /* ChannelsViewController.xib */; };
+		80B9D807285E9F25008CE282 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D805285E9F25008CE282 /* AboutViewController.swift */; };
+		80B9D808285E9F25008CE282 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D806285E9F25008CE282 /* AboutViewController.xib */; };
+		80B9D80B285EA9FA008CE282 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D80A285EA9FA008CE282 /* ServiceLayer.swift */; };
+		80B9D80D285EAA15008CE282 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D80C285EAA15008CE282 /* NetworkError.swift */; };
+		80B9D80F285EAA3A008CE282 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D80E285EAA3A008CE282 /* RequestModel.swift */; };
+		80B9D812285EAD74008CE282 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D811285EAD74008CE282 /* Constants.swift */; };
+		80B9D817285EB16A008CE282 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D816285EB16A008CE282 /* HomeProvider.swift */; };
+		80B9D819285EB3E7008CE282 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D818285EB3E6008CE282 /* HomePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,28 @@
 		80B9D7D5285E8342008CE282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B9D7D8285E8342008CE282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B9D7DA285E8342008CE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B9D7E1285E92B1008CE282 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
+		80B9D7E3285E9B2B008CE282 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		80B9D7E5285E9B77008CE282 /* PlaylistItemsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemsModel.swift; sourceTree = "<group>"; };
+		80B9D7E9285E9BCF008CE282 /* ChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		80B9D7EC285E9DB3008CE282 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		80B9D7EE285E9DC7008CE282 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		80B9D7F5285E9EDF008CE282 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80B9D7F6285E9EDF008CE282 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		80B9D7F9285E9EF9008CE282 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		80B9D7FA285E9EF9008CE282 /* VideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosViewController.xib; sourceTree = "<group>"; };
+		80B9D7FD285E9F09008CE282 /* PlayListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListsViewController.swift; sourceTree = "<group>"; };
+		80B9D7FE285E9F09008CE282 /* PlayListsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayListsViewController.xib; sourceTree = "<group>"; };
+		80B9D801285E9F19008CE282 /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		80B9D802285E9F19008CE282 /* ChannelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelsViewController.xib; sourceTree = "<group>"; };
+		80B9D805285E9F25008CE282 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		80B9D806285E9F25008CE282 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		80B9D80A285EA9FA008CE282 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		80B9D80C285EAA15008CE282 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		80B9D80E285EAA3A008CE282 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		80B9D811285EAD74008CE282 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80B9D816285EB16A008CE282 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		80B9D818285EB3E6008CE282 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,15 @@
 		80B9D7CB285E8338008CE282 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				80B9D810285EAD67008CE282 /* Utils */,
+				80B9D809285EA9E0008CE282 /* ServiceLayer */,
+				80B9D7F4285E9EB5008CE282 /* About */,
+				80B9D7F3285E9EAC008CE282 /* Channels */,
+				80B9D7F2285E9EA1008CE282 /* Playlists */,
+				80B9D7F1285E9E99008CE282 /* Videos */,
+				80B9D7F0285E9E85008CE282 /* Home */,
+				80B9D7EB285E9D74008CE282 /* Main */,
+				80B9D7E0285E9289008CE282 /* Model */,
 				80B9D7CC285E8338008CE282 /* AppDelegate.swift */,
 				80B9D7CE285E8338008CE282 /* SceneDelegate.swift */,
 				80B9D7D0285E8338008CE282 /* ViewController.swift */,
@@ -65,6 +118,115 @@
 				80B9D7DA285E8342008CE282 /* Info.plist */,
 			);
 			path = YouTubeClone;
+			sourceTree = "<group>";
+		};
+		80B9D7E0285E9289008CE282 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D7E9285E9BCF008CE282 /* ChannelModel.swift */,
+				80B9D7E5285E9B77008CE282 /* PlaylistItemsModel.swift */,
+				80B9D7E1285E92B1008CE282 /* PlayListModel.swift */,
+				80B9D7E3285E9B2B008CE282 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80B9D7EB285E9D74008CE282 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D7EC285E9DB3008CE282 /* RootPageViewController.swift */,
+				80B9D7EE285E9DC7008CE282 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		80B9D7F0285E9E85008CE282 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D815285EB155008CE282 /* Presenter */,
+				80B9D814285EB148008CE282 /* View */,
+				80B9D813285EB143008CE282 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		80B9D7F1285E9E99008CE282 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D7F9285E9EF9008CE282 /* VideosViewController.swift */,
+				80B9D7FA285E9EF9008CE282 /* VideosViewController.xib */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		80B9D7F2285E9EA1008CE282 /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D7FD285E9F09008CE282 /* PlayListsViewController.swift */,
+				80B9D7FE285E9F09008CE282 /* PlayListsViewController.xib */,
+			);
+			path = Playlists;
+			sourceTree = "<group>";
+		};
+		80B9D7F3285E9EAC008CE282 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D801285E9F19008CE282 /* ChannelsViewController.swift */,
+				80B9D802285E9F19008CE282 /* ChannelsViewController.xib */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		80B9D7F4285E9EB5008CE282 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D805285E9F25008CE282 /* AboutViewController.swift */,
+				80B9D806285E9F25008CE282 /* AboutViewController.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		80B9D809285EA9E0008CE282 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D80A285EA9FA008CE282 /* ServiceLayer.swift */,
+				80B9D80C285EAA15008CE282 /* NetworkError.swift */,
+				80B9D80E285EAA3A008CE282 /* RequestModel.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		80B9D810285EAD67008CE282 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D811285EAD74008CE282 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		80B9D813285EB143008CE282 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D816285EB16A008CE282 /* HomeProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80B9D814285EB148008CE282 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D7F5285E9EDF008CE282 /* HomeViewController.swift */,
+				80B9D7F6285E9EDF008CE282 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80B9D815285EB155008CE282 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D818285EB3E6008CE282 /* HomePresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +287,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9D800285E9F09008CE282 /* PlayListsViewController.xib in Resources */,
 				80B9D7D9285E8342008CE282 /* LaunchScreen.storyboard in Resources */,
+				80B9D808285E9F25008CE282 /* AboutViewController.xib in Resources */,
 				80B9D7D6285E8342008CE282 /* Assets.xcassets in Resources */,
+				80B9D7FC285E9EF9008CE282 /* VideosViewController.xib in Resources */,
 				80B9D7D4285E8339008CE282 /* Main.storyboard in Resources */,
+				80B9D7F8285E9EDF008CE282 /* HomeViewController.xib in Resources */,
+				80B9D804285E9F19008CE282 /* ChannelsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +305,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9D7E7285E9B77008CE282 /* PlaylistItemsModel.swift in Sources */,
+				80B9D80D285EAA15008CE282 /* NetworkError.swift in Sources */,
 				80B9D7D1285E8338008CE282 /* ViewController.swift in Sources */,
+				80B9D819285EB3E7008CE282 /* HomePresenter.swift in Sources */,
+				80B9D7FB285E9EF9008CE282 /* VideosViewController.swift in Sources */,
+				80B9D7E2285E92B1008CE282 /* PlayListModel.swift in Sources */,
 				80B9D7CD285E8338008CE282 /* AppDelegate.swift in Sources */,
+				80B9D80F285EAA3A008CE282 /* RequestModel.swift in Sources */,
+				80B9D7E4285E9B2B008CE282 /* VideoModel.swift in Sources */,
+				80B9D7F7285E9EDF008CE282 /* HomeViewController.swift in Sources */,
 				80B9D7CF285E8338008CE282 /* SceneDelegate.swift in Sources */,
+				80B9D817285EB16A008CE282 /* HomeProvider.swift in Sources */,
+				80B9D7FF285E9F09008CE282 /* PlayListsViewController.swift in Sources */,
+				80B9D7EF285E9DC7008CE282 /* MainViewController.swift in Sources */,
+				80B9D80B285EA9FA008CE282 /* ServiceLayer.swift in Sources */,
+				80B9D807285E9F25008CE282 /* AboutViewController.swift in Sources */,
+				80B9D803285E9F19008CE282 /* ChannelsViewController.swift in Sources */,
+				80B9D7EA285E9BCF008CE282 /* ChannelModel.swift in Sources */,
+				80B9D7ED285E9DB3008CE282 /* RootPageViewController.swift in Sources */,
+				80B9D812285EAD74008CE282 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
